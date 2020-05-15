@@ -1,0 +1,32 @@
+[INFO  - 2020-05-15T05:58:08.299Z] GhostDriver - Main - running on port 56028
+[INFO  - 2020-05-15T05:58:10.405Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-05-15T05:58:10.405Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - page.customHeaders:  - {}
+[INFO  - 2020-05-15T05:58:10.405Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-05-15T05:58:10.405Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0e51e3a0-9671-11ea-9f96-c7975c9c2a28
+[ERROR - 2020-05-15T05:58:11.522Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - page.onError - msg: TypeError: null is not an object (evaluating 'da_ua.match(/Version\/([0-9\.]+)/i)[1]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-05-15T05:58:11.522Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - page.onError - stack:
+  searchBrowserVersion (https://ssl.pstatic.net/tveta/libs/assets/js/pc/main/min/pc.veta.core.min.js?20171121:1)
+  init (https://ssl.pstatic.net/tveta/libs/assets/js/pc/main/min/pc.veta.core.min.js?20171121:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-05-15T05:58:11.554Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - page.onError - msg: TypeError: null is not an object (evaluating 'da_ua.match(/Version\/([0-9\.]+)/i)[1]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-05-15T05:58:11.554Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - page.onError - stack:
+  searchBrowserVersion (https://ssl.pstatic.net/tveta/libs/assets/js/pc/main/min/pc.veta.core.min.js?20180228:1)
+  init (https://ssl.pstatic.net/tveta/libs/assets/js/pc/main/min/pc.veta.core.min.js?20180228:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-05-15T05:58:11.580Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new naver_corp_da.ActiveViewIFRAME')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-05-15T05:58:11.580Z] Session [0e51e3a0-9671-11ea-9f96-c7975c9c2a28] - page.onError - stack:
+  (anonymous function) (https://veta.naver.com/fxshow?su=SU10306&sid1=101&sid2=259&oid=029:28)
+  k (https://ssl.pstatic.net/tveta/libs/external/js/jquery-1.8.0.min.js?20161024:2)
+  fireWith (https://ssl.pstatic.net/tveta/libs/external/js/jquery-1.8.0.min.js?20161024:2)
+  ready (https://ssl.pstatic.net/tveta/libs/external/js/jquery-1.8.0.min.js?20161024:2)
+  D (https://ssl.pstatic.net/tveta/libs/external/js/jquery-1.8.0.min.js?20161024:2)
+
+  phantomjs://platform/console++.js:263 in error
